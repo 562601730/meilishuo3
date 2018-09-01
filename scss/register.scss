@@ -1,0 +1,227 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure{margin:0;padding:0}
+body{font-family: '微软雅黑';}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:16px;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration:none;}
+a{cursor: pointer;}
+img{border:0;display:block;}
+ul,ol,li{list-style:none;}
+input{outline:none;}
+.clear-fix:after{content:".";clear:both;display:block;height:0;overflow: hidden;visibility: hidden;}
+
+#header{width:1260px;margin:0 auto;}
+.footer-con{width:1200px;margin:0 auto;}
+//header
+#header{
+	height:94px;
+	width:1260px;
+	margin:0 auto;
+	.logo{
+	display: block;
+	float: left;
+    width: 204px;
+    height: 52px;
+    margin-top: 18px;
+    margin-left: 32px;
+    background:url(../img/logo.png) no-repeat;
+    background-size:100%;
+    padding-right:0;
+	}
+}
+
+//bodyer
+#bodyer{
+	min-width:1200px;
+	height:600px;
+	width:100%;
+	margin:0 auto;
+	margin-top:3px;
+	margin-bottom:15px;
+	background:pink url(../img/login-bg.png) no-repeat center center;
+	position:relative;
+	.reg-left{
+		height:100px;
+		width:62.5%;
+		float:left;
+	}
+	.reg-box{
+		width:400px;
+		height:348px;
+		background:#ffeceb;
+		margin-top:80px;
+		float:left;
+		opacity:0.9;
+		filter:alpha(opacity=90);
+		.reg-top{
+			width:394px;
+			height:53px;
+			border-bottom:1px solid #d3c4c1;
+			float:right;
+			.reg-title{
+				width:119px;
+				height:38px;
+				float:left;
+				margin-top:13px;
+				font-size:14px;
+				text-align:center;
+				line-height:38px;
+				margin-left:15px;
+				font-weight:700;
+			}
+		}
+		.reg-con{
+			margin-left:44px;
+			margin-right:42px;
+			clear:both;
+			padding-top:16px;
+			#reg-txt,#reg-pw{
+				display:block;
+				width:312px;
+				height:40px;
+				background:#ffeceb;
+				border:1px solid #d3c4c1;
+				font-size:12px;
+				text-indent:6px;				
+			}
+			#reg-pw{
+				margin-top:15px;
+			}
+			.reg-msg{
+				color:#fe5571;
+				font-size:12px;
+				height:30px;
+				line-height:30px;
+				text-align:center;
+			}
+			.reg-btn{
+				display:block;
+				width:314px;
+				height:40px;
+				background:#fe5571;
+				color:white;
+				font-size:12px;
+				text-align:center;
+				line-height:40px;
+				margin-bottom:26px;
+				cursor: pointer;
+			}
+			.reg-wx{
+				display:block;
+				width:72px;
+				color:black;
+				.reg-wx-img{
+					float:left;
+				}
+				.reg-wx-span{
+					float:left;
+					margin-left:6px;
+					font-size:12px;
+					padding-top:1px;
+				}
+			}
+			.reg-goReg,.reg-goPw{
+				margin-top:21px;
+				height:14px;
+				display:block;
+				float:right;
+				font-size:12px;
+				color:#fd5671;
+				border-bottom:1px solid #fd5671;
+			}
+			.reg-goPw{
+				color:#9e8d8b;
+				border-bottom:1px solid #9e8d8b;
+				margin-right:25px;
+			}
+
+
+		}
+	}
+}
+
+#footer{
+	height:296px;
+	background:#f5f5f5;
+	border-top:1px solid #ddd;
+	
+}
+.footer-con{
+	height:296px;
+}
+	/*contact*/
+.contact{
+	height:227px;
+}
+#footer .contact .contact-list{
+	float:left;
+	margin-top: 33px;
+	
+}
+#footer .contact h4{
+	font-size:18px;
+	line-height:18px;
+	color: #666;
+	font-weight: 700;
+	margin-bottom:26px;
+	margin-right:103px
+}
+#footer .contact-list a{
+	display: block;
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 17px;
+}
+#footer a:hover{
+ 	color:#ff3366;
+ }
+#footer .contact-list i{
+	display:block;
+	float: left;
+	width:18px;
+	height:18px;
+	margin-right: 4px;
+}
+#footer .contact-list .wb-sina{
+	background:url(../img/tpzh-about.png) no-repeat 0 0;
+}
+#footer .contact-list .qq-zone{
+	background:url(../img/tpzh-about.png) no-repeat -28px 0;
+}
+#footer .contact-list .wb-tencent{
+	background:url(../img/tpzh-about.png) no-repeat -56px 0;
+}
+#footer .contact .service-wx{
+	margin-left:122px;
+	margin-right:0;
+}
+#footer  .contact .service-wx-h4 {
+	margin-right:0;
+
+}
+#footer  .service-wx img{
+	margin:0 auto;
+
+}
+#footer .contact .contact-app{
+	margin-left:50px;
+}
+	/*Copyright*/
+.Copyright{
+	padding-top:14px;
+	line-height: 22px;
+	height:52px;
+	border-top:1px solid #e6e6e6;
+	text-align:center;
+	font-size:12px;
+	color:#666;
+}
+ #footer .Copyright a{
+ 	font-size:12px;
+	color:#666;
+
+ }
+  #footer .Copyright a:hover{
+ 	color:#ff3366;
+ }
